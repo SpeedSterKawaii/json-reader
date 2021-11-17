@@ -2,7 +2,8 @@ class Program
 {
     static void Main()
     {
-        Item item = JsonFileReader.Read<Item>(@"C:\myFile.json");
+        Item item = JsonFileReader.Read<Item>(@"C:\myFile.json");//what directory you want tto read from 
+        //alt: string path = $"C:/Users/uruseridk/"
     }
 }
 
